@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    width: 1920px;
     font-family: Lato;
     line-height: normal;
     font-style: normal;
@@ -224,10 +225,6 @@ body>header {
     display: flex;
 }
 
-/* .deal-banner {
-    display: flex;
-    flex-direction: column;
-} */
 
 #deal-banner-title {
     margin-top: 230px;
@@ -265,4 +262,152 @@ body>header {
     margin-right: 429px;
     margin-bottom: 100px;
     margin-left: 186px;
+}
+
+#social-media-title {
+    margin-top: 128px;
+    margin-left: 872px;
+    margin-bottom: 24px;
+    /* text-align: center; */
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+#social-media-description {
+    width: 594px;
+    margin-left: 665px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.social-media-images {
+    display: flex;
+    margin-top: 48px;
+    margin-bottom: 128px;
+}
+
+#social-media-images-1 {
+    margin-left: 242px;
+    margin-right: 24px;
+}
+
+#social-media-images-2 {
+    margin-right: 24px;
+}
+
+#social-media-images-3 {
+    margin-right: 24px;
+}
+
+#social-media-images-4 {
+    margin-right: 240px;
+}
+
+.social-media>footer {
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    background: url('Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    margin-left: 242px;
+    margin-bottom: 128px;
+}
+
+.subscription {
+    display: flex;
+    flex-direction: column;
+}
+
+#subscription-title {
+    margin-top: 122px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#subscription-description {
+    /* margin-top: 16px; */
+    margin-bottom: 48px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.email {
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.email-form>input {}
+
+#email-text {
+    padding: 0px 0px 0px 22px;
+    /* text-align: left; */
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-left: 287px;
+}
+
+#subscribe-button {
+    width: 150px;
+    height: 64px;
+    margin-left: 16px;
+    text-align: center;
+    padding: 18.29px 31px;
+}
+
+/* footer styles */
+.copyright {
+    width: 1922px;
+    height: 449px;
+    background: #111010;
+}
+
+.copyright-banner {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.copyright-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 128px;
+    margin-left: 831px;
+    margin-bottom: 24px;
+}
+
+#shop {
+    color: #FFF;
+}
+
+.copyright-description {
+    width: 625px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 648px;
+    margin-bottom: 32px;
+}
+
+.copyright-rights {
+    width: 355px;
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 784px;
 }
